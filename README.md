@@ -32,9 +32,7 @@ pip install numpy
 
 Execute o script:
 
-```bash
 python code.py
-```
 
 🧾 Exemplo de entrada
 
@@ -46,7 +44,7 @@ Y = np.array([[0.1-0.2j, -0.1j, -0.1j],
 I = np.array([1, 0.8, 1.2])
 ```
 
-## 📌 Saída esperada
+📌 Saída esperada
 
 ```text
 Tensões calculadas (Gauss-Seidel):
