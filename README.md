@@ -4,7 +4,7 @@
 
 Este projeto apresenta uma implementação computacional do método iterativo de **Gauss-Seidel** para o cálculo de tensões nodais em sistemas elétricos de potência, utilizando uma matriz admitância (Y) e um vetor de corrente (I) como entrada.
 
-## 📋 Descrição
+📋 Descrição
 
 O método de Gauss-Seidel é uma técnica numérica iterativa amplamente utilizada na análise de fluxo de carga em sistemas de potência. Esta implementação:
 
@@ -14,7 +14,7 @@ O método de Gauss-Seidel é uma técnica numérica iterativa amplamente utiliza
 - Apresenta as tensões resultantes em forma retangular e polar;
 - Mede o tempo de execução do algoritmo.
 
-## 🧮 Fórmula
+🧮 Fórmula
 
 A atualização da tensão em cada iteração segue a equação:
 
@@ -33,10 +33,10 @@ pip install numpy
 Execute o script:
 
 ```bash
-python gauss_seidel_potencia.py
+python code.py
 ```
 
-## 🧾 Exemplo de entrada
+🧾 Exemplo de entrada
 
 ```python
 Y = np.array([[0.1-0.2j, -0.1j, -0.1j],
@@ -44,7 +44,6 @@ Y = np.array([[0.1-0.2j, -0.1j, -0.1j],
               [-0.1j, -0.1j, 0.2-0.2j]])
 
 I = np.array([1, 0.8, 1.2])
-V0 = np.array([1+0j, 1+0j, 1+0j])
 ```
 
 ## 📌 Saída esperada
